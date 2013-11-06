@@ -1,7 +1,13 @@
 2.Lebenszyklus-einer-App
 ========================
 
-Hier erfolgt eine Beispiel-App bezügliche der Zustände, welche eine App innerhalb ihres Lebenszykluses einnehmen kann.
+Hier erfolgt eine Beispiel-App bezügliche der Zustände, welche eine App innerhalb ihres Lebenszykluses einnehmen kann.  
+
+Wer schon mal mit sogenannten _Zustands-Maschinen/Statemachines
+
+Die Theorie dahinter findet Ihr hier:  
+
+    http://de.wikipedia.org/wiki/Endlicher_Automat
 
 ```java
 public class Activity extends ApplicationContext {
