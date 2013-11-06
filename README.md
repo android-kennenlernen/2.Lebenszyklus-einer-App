@@ -3,11 +3,23 @@
 
 Hier erfolgt eine Beispiel-App bezügliche der Zustände, welche eine App innerhalb ihres Lebenszykluses einnehmen kann.
 
-Eine genauere Beschreibung derer erfolgt nicht jetzt.
+'''java
+public class Activity extends ApplicationContext {
+     protected void onCreate(Bundle savedInstanceState);
 
-Die App ist nämlich von mir erstmal zu bauen und bereit zustellen(Sorry).
+     protected void onStart();
+     
+     protected void onRestart();
 
-Geguckt werden kann aber dennoch.
+     protected void onResume();
+
+     protected void onPause();
+
+     protected void onStop();
+
+     protected void onDestroy();
+}
+'''
 
 __Referenz:__
 
