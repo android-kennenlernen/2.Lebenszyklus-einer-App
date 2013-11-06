@@ -3,11 +3,7 @@
 
 Hier erfolgt eine Beispiel-App bezügliche der Zustände, welche eine App innerhalb ihres Lebenszykluses einnehmen kann.  
 
-Wer schon mal mit sogenannten _Zustands-Maschinen/Statemachines
-
-Die Theorie dahinter findet Ihr hier:  
-
-    http://de.wikipedia.org/wiki/Endlicher_Automat
+Wer schon einmal mit den sogenannten [Zustands-Maschinen/state machines](http://de.wikipedia.org/wiki/Endlicher_Automat) zu tun hatte, wird diese in der Referenz unschwer wieder erkennen.
 
 ```java
 public class Activity extends ApplicationContext {
