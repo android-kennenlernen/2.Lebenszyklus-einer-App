@@ -22,7 +22,7 @@ public class Activity extends ApplicationContext {
 ```
 
 Diese App tut nichts weiter, als in jeder Methode eine Log-Ausgabe zu generieren.  
-Wenn Ihr nun mit dem Emulator andere Apps aufruft, zu dieser App wieder zurück kehrt, könnt Iht im Log-Fenster die Wechsel zwischen den einzelnen Zuständen verfolgen.
+Wenn Ihr nun mit dem Emulator andere Apps aufruft, zu dieser App wieder zurück kehrt, könnt Ihr im Log-Fenster die Wechsel zwischen den einzelnen Zuständen verfolgen.
 
 __Referenz:__
 
