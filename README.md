@@ -35,7 +35,7 @@ Dazu ist jede einzelne Methode mit Programm-Code zu beleben und zwar so:
 	@Override
 	protected void onStart() {
 
-		// Expiliziter Aufruf der geerbten Methode
+		// Expliziter Aufruf der geerbten Methode
 		super.onStart();
 
 		// Aufruf in der 'LogCat'-Console festhalten
