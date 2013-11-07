@@ -34,11 +34,11 @@ Dazu ist jede einzelne Methode mit Programm-Code zu beleben und zwar so:
 ```java
 	protected void onStart() {
 
-	// Expiliziter Aufruf der geerbten Methode
-	super.onStart();
+		// Expiliziter Aufruf der geerbten Methode
+		super.onStart();
 
-	// Aufruf in der 'LogCat'-Console festhalten
-	Log.i("omInfo", "onStart()");
+		// Aufruf in der 'LogCat'-Console festhalten
+		Log.i("omInfo", "onStart()");
 	}
 ```
 
