@@ -39,6 +39,7 @@ Dazu ist jede einzelne Methode mit Programm-Code zu beleben und zwar so:
 
 		// Aufruf in der 'LogCat'-Console festhalten
 		Log.i("omInfo", "onStart()");
+		
 	}
 ```
 
