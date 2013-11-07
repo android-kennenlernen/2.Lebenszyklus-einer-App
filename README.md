@@ -8,7 +8,7 @@ http://developer.android.com/reference/android/app/Activity.html
 
 __Aufgabenstellung__
 
-Um sich einen Überblick über diese Lebenzyklen zu verschaffen und wann in diese eingetreten wird und wann diese wieder verlassen werden, ist eine entsprechende App zu bauen.  
+Um sich einen Überblick über die Lebenzyklen zu verschaffen und wann in diese eingetreten wird und wann diese wieder verlassen werden, ist eine entsprechende App zu bauen.  
 Vorlage ist nachfolgendes Code-Gerüst.
 
 ```java
@@ -32,14 +32,14 @@ public class Activity extends ApplicationContext {
 Dazu ist jede einzelne Methode mit Programm-Code zu beleben und zwar so:
 
 ```java
-	prodected void onStart() {
+    prodected void onStart() {
 
-		// Expiliziter Aufruf der geerbten Methode
-		super.onStart();
+	// Expiliziter Aufruf der geerbten Methode
+	super.onStart();
 
-		// Aufruf in der 'LogCat'-Console festhalten
-		Log.i("omInfo", "onStart()");
-	}
+	// Aufruf in der 'LogCat'-Console festhalten
+	Log.i("omInfo", "onStart()");
+    }
 ```
 
 __Lern-Ziel__
