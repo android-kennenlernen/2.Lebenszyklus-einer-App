@@ -1,11 +1,15 @@
-2.Lebenszyklus-einer-App
-========================
+# 2.Lebenszyklus-einer-App
 
-Hier erfolgt eine Beispiel-App bezügliche der Zustände, welche eine App innerhalb ihres Lebenszykluses einnehmen kann.  
+Während der Benutzung einer App z.B. Web-Browser kann es zu Unterbrechungen durch einen eingehenden Anruf kommen.  
+Die Erwartungshaltung ist natürlich diese, daß nach dem Anruf mit dem Web-Browser weiterhin gearbeitet werden kann.  
+Dieses Verhalten wird über die Lebenszyklen einer App realisiert.  
+Wie diese in einander greifen ist hier beschrieben:  
+http://developer.android.com/reference/android/app/Activity.html
 
-Wer schon einmal mit den sogenannten [Zustands-Maschinen/state machines](http://de.wikipedia.org/wiki/Endlicher_Automat) zu tun hatte, wird diese in der Referenz unschwer wieder erkennen.
+__Aufgabenstellung__
 
-Im Falle einer Android-App ist dies so umgesetzt:
+Um sich einen Überblick über diese Lebenzyklen zu verschaffen und wann in diese eingetreten wird und wann diese wieder verlassen werden, ist eine entsprechende App zu bauen.  
+Vorlage ist nachfolgendes Code-Gerüst.
 
 ```java
 public class Activity extends ApplicationContext {
@@ -25,9 +29,28 @@ public class Activity extends ApplicationContext {
 }
 ```
 
-Diese App tut letztendlich nichts weiter, als für jede Methode/jeden Status eine Log-Ausgabe zu generieren.  
-Wenn Ihr nun im Emulator andere Apps aufruft, zu _dieser_ App wieder zurück kehrt, könnt Ihr im Log-Fenster die Wechsel zwischen den einzelnen Zuständen verfolgen.
+Dazu ist jede einzelne Methode mit Programm-Code zu beleben und zwar so:
 
-__Referenz:__
+```java
+	prodected void onStart() {
 
-http://developer.android.com/reference/android/app/Activity.html
+		// Expiliziter Aufruf der geerbten Methode
+		super.onStart();
+
+		// Aufruf in der 'LogCat'-Console festhalten
+		Log.i("omInfo", "onStart()");
+	}
+```
+
+__Lern-Ziel__
+
+- Eine erste, eigene App zu erstellen.
+
+- Mittels dieser App __und__ spielerischen Umgang mit dem Emulator soll vermittelt werden, wann unsere App welche Zustände durchläuft.
+Der Wechsel dieser Zustände wird in der 'LogCat'-Konsole sichtbar.
+
+__P.S:__  
+Wer schon einmal mit den sogenannten [Zustands-Maschinen/state machines](http://de.wikipedia.org/wiki/Endlicher_Automat) in Berührung kam, wird diese unschwer wiedererkennen.
+
+
+
