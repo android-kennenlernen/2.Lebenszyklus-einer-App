@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2013 Uli Fuchs
+ * MIT licensed 
+ */
+
 package com.example.lebenszyklus;
 
 import android.os.Bundle;
