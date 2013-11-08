@@ -44,12 +44,37 @@ Dazu ist jede einzelne Methode mit Programm-Code zu beleben und zwar so:
 	}
 ```
 
+__Hilfestellungen__
+
+Wenn die App einmal im Emulator läuft, kommen jeder Menge Log-Messages im _LogCat_ zur Darstellungen, welche uns in ihrer Gesamtheit etwas den Blick für _unsere_ eigenen Messages verschleiern.  
+
+![Image](./readme-img/LogCat-unfiltered-and-tagged.png)
+
+Dem läßt sich jedoch abhelfen.  
+Dazu betätige man das markierte Plus-Zeichen und es erscheint folgender Dialog:
+
+![Image](./readme-img/LogCat-message-filter-settings.png) 
+
+Nach erfolgte Eingabe und bestätigen mit 'OK' sollte es in der 'LogCat'-Konsole so aussehen:
+
+![Image](./readme-img/LogCat-filtered-and-tagged.png)
+
+__Vorschau auf die App__
+
+![Image](./readme-img/lebenszyklus-app.png?raw=true)
+
+Der neu erstellte Filter erscheint nun auf der linken Seite der 'LogCat'-Konsole.
+
 __Lern-Ziel__
 
 - Eine erste, eigene App zu erstellen.
 
 - Mittels dieser App __und__ spielerischen Umgang mit dem Emulator soll vermittelt werden, wann unsere App welche Zustände durchläuft.
 Der Wechsel dieser Zustände wird in der 'LogCat'-Konsole sichtbar.
+
+- Nicht erwünschte Log-Messages lassen sich per *Message Filter* bei Bedarf ausblenden.
+
+
 
 __P.S:__  
 Wer schon einmal mit den sogenannten [Zustands-Maschinen/state machines](http://de.wikipedia.org/wiki/Endlicher_Automat) in Berührung kam, wird diese unschwer wiedererkennen.
